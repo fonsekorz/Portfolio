@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+  position: relative;
+  overflow-x: hidden;
+}
+#container {
+    display: flex;
+}
+#nav {
+  font-size: 1rem;
+  font-weight: 400;
+  border: 2px solid black;
+  padding: 20px;
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
