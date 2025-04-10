@@ -4,8 +4,8 @@
         <a href="logo.jpg">Aquí va el logo</a>
     </div>
     <nav>
-        <span><a href="./Index.php">Abaout me</a></span>
-        <span><a href="./Vistas/projects.php">Projects</a></span>
-        <span><a href="./Vistas/contact.php">Contact</a></span>
+        <span><a href="./index.php">Abaout me</a></span>
+        <span><a href="./vistas/projects.php">Projects</a></span>
+        <span><a href="./vistas/contact.php">Contact</a></span>
     </nav>
 </header>
