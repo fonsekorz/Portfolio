@@ -1,0 +1,22 @@
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+#header-logo a {
+  width: 150px;
+  border: 2px solid black;
+}
+
+#header-nav {
+  font-size: 1rem;
+  font-weight: 400;
+  border: 2px solid black;
+  padding: 20px;
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
