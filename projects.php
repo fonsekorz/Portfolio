@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +16,7 @@
 
 <body>
     <?php include_once('./secciones/header.php'); ?>
-    <?php include_once('./secciones/abaout-me.php'); ?>
+    <?php include_once('./secciones/mis-proyectos.php'); ?>
     <?php include_once('./secciones/footer.php'); ?>
 </body>
 

@@ -1,7 +1,62 @@
-main {
+#main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+#explicacion {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
-  height: 100%;
   width: 100%;
-  padding: 20px;
 }
+
+#explicacion p {
+  margin: 0;
+  font-size: 1.2rem;
+  flex: 0 0 60%;
+}
+
+#explicacion img {
+  flex: 0 0 40%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#trabajos,
+#conocimientos,
+#estudios {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#trabajos p,
+#conocimientos p,
+#estudios p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+
+

@@ -1,0 +1,35 @@
+[
+    {
+      "descripcion": "Detalles de mí",
+      "foto": "foto",
+      "trabajos": {
+        "tecnico": "técnico",
+        "practico": "práctico"
+      },
+      "conocimientos": [
+        {
+          "nombre": "html",
+          "nivel": "experto"
+        },
+        {
+          "nombre": "css",
+          "nivel": "intermedio"
+        }
+      ],
+      "estudios": [
+        {
+          "nombre": "estudio uno",
+          "nivel": "básico"
+        },
+        {
+          "nombre": "estudio dos",
+          "nivel": "intermedio"
+        },
+        {
+          "nombre": "estudio tres",
+          "nivel": "avanzado"
+        }
+      ]
+    }
+  ]
+  

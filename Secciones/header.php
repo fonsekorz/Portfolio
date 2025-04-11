@@ -1,16 +1,23 @@
-<header id="header-container">
-    <div id="header-logo">
-        <a href="/Portfolio/index.php">
-            <img src="/Portfolio/assets/logo.png" alt="Logo Fonseka" />
-        </a>
-    </div>
+<?php
+$jsonFile = '../Portfolio/assets/navegacion.json';
+$datos = json_decode(file_get_contents($jsonFile), true);
 
+foreach ($datos as $dato) {
+?>
+    <header id="header-container">
+        <div id="header-logo">
+            <img src="<?= $dato['logo'] ?>" alt="Logo Fonseka" />
+        </div>
 
-    <button id="menu-toggle">&#9776;</button>
+        <button id="menu-toggle">&#9776;</button>
 
-    <nav id="header-nav">
-        <a href="/Portfolio/index.php">Sobre mí</a>
-        <a href="/Portfolio/vistas/projects.php">Proyectos</a>
-        <a href="/Portfolio/vistas/contact.php">Contacto</a>
-    </nav>
-</header>
+        <nav id="header-nav">
+            <a href="./index.php"><?= $dato['about'] ?></a>
+            <a href="./projects.php"><?= $dato['proyects'] ?></a>
+            <a href="./contact.php"><?= $dato['contact'] ?></a>
+
+        </nav>
+    </header>
+<?php
+}
+?>
