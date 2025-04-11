@@ -1,6 +1,6 @@
 
     <main>
-        <h1>Main</h1>
+        <h1>Sobre Mi</h1>
         <div id="main-container">
             <div ></div>
         </div>
