@@ -6,7 +6,7 @@
       {
         "nombre": "HTML",
         "logo": "assets/html5.svg",
-        "nivel": "Intermedio"
+        "nivel": "Experto"
       },
       {
         "nombre": "CSS",
@@ -26,7 +26,7 @@
       {
         "nombre": "Git",
         "logo": "assets/git.svg",
-        "nivel": "Intermedio"
+        "nivel": "Basico"
       },
       {
         "nombre": "JavaScript",
