@@ -1,7 +1,6 @@
 <?php
 $jsonFile = '../Portfolio/assets/navegacion.json';
 $datos = json_decode(file_get_contents($jsonFile), true);
-
 foreach ($datos as $dato) {
     ?>
     <header id="header-container">
