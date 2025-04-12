@@ -1,0 +1,70 @@
+[
+  {
+    "nombre": "Poke Cartas",
+    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "imagen": "assets/pokecartas-mini.png",
+    "botones": [
+      {
+        "boton": "Demo",
+        "url": "./pokecartas/index.php",
+        "icono": "assets/demo.svg"
+      },
+      {
+        "boton": "GitHub",
+        "url": "https://github.com/fonsekorz/UF1846_pokecartas.git",
+        "icono": "assets/github.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "Poke Cartas",
+    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "imagen": "assets/pokecartas-mini.png",
+    "botones": [
+      {
+        "boton": "Demo",
+        "url": "./pokecartas/index.php",
+        "icono": "assets/demo.svg"
+      },
+      {
+        "boton": "GitHub",
+        "url": "https://github.com/fonsekorz/UF1846_pokecartas.git",
+        "icono": "assets/github.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "Poke Cartas",
+    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "imagen": "assets/pokecartas-mini.png",
+    "botones": [
+      {
+        "boton": "Demo",
+        "url": "./pokecartas/index.php",
+        "icono": "assets/demo.svg"
+      },
+      {
+        "boton": "GitHub",
+        "url": "https://github.com/fonsekorz/UF1846_pokecartas.git",
+        "icono": "assets/github.svg"
+      }
+    ]
+  },
+  {
+    "nombre": "Poke Cartas",
+    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "imagen": "assets/pokecartas-mini.png",
+    "botones": [
+      {
+        "boton": "Demo",
+        "url": "./pokecartas/index.php",
+        "icono": "assets/demo.svg"
+      },
+      {
+        "boton": "GitHub",
+        "url": "https://github.com/fonsekorz/UF1846_pokecartas.git",
+        "icono": "assets/github.svg"
+      }
+    ]
+  }
+]

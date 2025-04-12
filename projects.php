@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/comunes.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/abaout-me.css">
+    <link rel="stylesheet" href="css/about-me.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 
 <body>
     <?php include_once('./secciones/header.php'); ?>
-    <?php include_once('./secciones/mis-proyectos.php'); ?>
+    <?php include_once('./secciones/proyectos.php'); ?>
     <?php include_once('./secciones/footer.php'); ?>
     <script src="./assets/menu.js"></script>
 </body>

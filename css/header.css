@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(6px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   position: sticky;
@@ -61,13 +61,13 @@
     right: 0;
     display: none;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     border-radius: 8px;
     min-width: 200px;
     width: 50%;
     gap: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   }
   #header-nav.active {
     display: flex;

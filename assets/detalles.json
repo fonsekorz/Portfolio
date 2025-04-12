@@ -40,7 +40,7 @@
       },
       {
         "nombre": "MySQL",
-        "logo": "assets/mysql.svg", 
+        "logo": "assets/mysql.svg",
         "nivel": "Intermedio"
       }
     ]
