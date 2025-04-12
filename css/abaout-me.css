@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 100px;
   width: 100%;
   max-width: 1500px;
   margin: 25px auto;
@@ -55,6 +55,7 @@
 #exp-texto p {
   color: #e0e0e0;
   font-family: "Poppins", sans-serif;
+  text-align: justify;
   font-size: 1.15rem;
   line-height: 1.6;
   margin: 0;
@@ -63,15 +64,13 @@
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
-  max-width: 600px;
+  max-width: 500px;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6), 0 6px 6px rgba(0, 0, 0, 0.3),
     inset 0 0 10px rgba(255, 255, 255, 0.05);
 }
 #exp-imagen img {
-  border-radius: 16px;
   width: 100%;
   height: auto;
   position: relative;
@@ -242,7 +241,7 @@
     max-height: none;
   }
   #exp-imagen img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     border-radius: 12px;
   }

@@ -12,7 +12,7 @@
                     <span>GitHub</span>
                     <img src="./assets/github.svg" alt="GitHub">
                 </a>
-                <a href="https://linkedin.com/in/tunick" target="_blank">
+                <a href="https://www.linkedin.com/in/pablofonseca-soporte-informatico/" target="_blank">
                     <span>LinkedIn</span>
                     <img src="./assets/linkedin.svg" alt="LinkedIn">
                 </a>
