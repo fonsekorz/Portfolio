@@ -5,58 +5,269 @@
   padding: 20px;
   width: 100%;
 }
-
 #explicacion {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 30px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  gap: 20px;
   width: 100%;
+  max-width: 1500px;
+  margin: 25px auto;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  position: relative;
+  z-index: 1;
 }
-
-#explicacion p {
-  margin: 0;
-  font-size: 1.2rem;
-  flex: 0 0 60%;
-}
-
-#explicacion img {
-  flex: 0 0 40%;
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-#trabajos,
-#conocimientos,
-#estudios {
+#exp-texto {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 15px;
-  border-radius: 8px;
+  justify-content: center;
 }
-
-#trabajos p,
-#conocimientos p,
-#estudios p {
+#exp-texto h1 {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: italic;
+  background: linear-gradient(90deg, #f5d742, #ffb700);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #f5d742;
+  margin-bottom: 25px;
+  position: relative;
+}
+#exp-texto h1::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #ffb700;
+  border-radius: 2px;
+}
+#exp-texto p {
+  color: #e0e0e0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin: 0;
+}
+#exp-imagen {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6), 0 6px 6px rgba(0, 0, 0, 0.3),
+    inset 0 0 10px rgba(255, 255, 255, 0.05);
+}
+#exp-imagen img {
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+#tecnologias {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  max-width: 1500px;
+  margin: 25px auto;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  position: relative;
+  z-index: 1;
+}
+#tecnologias-titulo {
+  width: 100%;
+}
+#tecnologias h1 {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: italic;
+  background: linear-gradient(90deg, #f5d742, #ffb700);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #f5d742;
+  margin-bottom: 25px;
+  position: relative;
+}
+#tecnologias h1::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #ffb700;
+  border-radius: 2px;
+}
+.grid-tecnologias {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  width: 100%;
+  justify-items: center;
+}
+.tecnologia {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0.02)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 25px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.tecnologia:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 12px 30px rgba(255, 183, 0, 0.4);
+  border-color: #ffb700;
+}
+.tecnologia img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.tecnologia h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+.tecnologia p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #e0e0e0;
+  margin: 0;
+}
+.nivel {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.95rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  width: fit-content;
+  margin-top: 5px;
 }
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
+.nivel.basico {
+  background-color: rgba(255, 0, 0, 0.2);
+  color: #ff4d4d;
+  border: 1px solid #ff4d4d;
 }
-
-ul li {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
-  padding: 10px;
-  margin: 5px 0;
+.nivel.intermedio {
+  background-color: rgba(255, 187, 0, 0.2);
+  color: #ffbb00;
+  border: 1px solid #ffbb00;
 }
-
-
+.nivel.experto {
+  background-color: rgba(0, 255, 128, 0.2);
+  color: #00ff80;
+  border: 1px solid #00ff80;
+}
+@media (min-width: 600px) {
+  .grid-tecnologias {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 900px) {
+  .grid-tecnologias {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .grid-tecnologias {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  #explicacion {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 30px;
+  }
+  #exp-texto {
+    width: 100%;
+  }
+  #exp-texto h1 {
+    font-size: 2.2rem;
+  }
+  #exp-texto h1::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #exp-texto p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+  #exp-imagen {
+    max-width: 100%;
+    max-height: none;
+  }
+  #exp-imagen img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+  }
+}
+@media (max-width: 768px) {
+  #exp-imagen {
+    width: 90%;
+    height: auto !important;
+    max-height: none !important;
+    box-shadow:
+      0 15px 25px rgba(0, 0, 0, 0.6),
+      0 5px 10px rgba(0, 0, 0, 0.3),
+      inset 0 0 10px rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #exp-imagen img {
+    width: 100%;
+    height: auto !important;
+    border-radius: 16px;
+    display: block;
+  }
+}
 

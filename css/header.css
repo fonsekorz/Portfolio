@@ -45,7 +45,6 @@
   color: white;
   cursor: pointer;
 }
-
 @media (max-width: 768px) {
   #header-container {
     flex-wrap: wrap;
@@ -60,11 +59,9 @@
     gap: 10px;
     margin-top: 10px;
   }
-
   #header-nav.active {
     display: flex;
   }
-
   #header-nav a {
     text-align: center;
     padding: 10px;

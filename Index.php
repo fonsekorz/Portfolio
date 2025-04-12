@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="css/abaout-me.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/footer.css">
-    <title>Portfolio | Pablo Fonseca | Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Portfolio | Pablo Fonseca</title>
 </head>
 
 <body>
     <?php include_once('./secciones/header.php'); ?>
     <?php include_once('./secciones/abaout-me.php'); ?>
     <?php include_once('./secciones/footer.php'); ?>
+    <script src="./assets/menu.js"></script>
 </body>
 
 </html>

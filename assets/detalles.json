@@ -1,35 +1,48 @@
 [
-    {
-      "descripcion": "Detalles de mí",
-      "foto": "foto",
-      "trabajos": {
-        "tecnico": "técnico",
-        "practico": "práctico"
+  {
+    "descripcion": "Crecí en los años 80, y mi primer contacto con la informática fue en el colegio con los míticos Amstrad, escribiendo líneas en BASIC como DRAW x,y. No entendía gran cosa, pero ver cómo se creaban figuritas en la pantalla me parecía magia. Desde entonces me enganchó todo el mundo de la informática. Mi primer ordenador fue un Pentium 133, con el que empecé a trastear cada vez más, y desde entonces siempre he estado conectado al mundo de los ordenadores, sobre todo en la parte técnica. Hoy en día me estoy enfocando en dos ramas dentro del ámbito técnico: por un lado, el desarrollo, donde disfruto creando aplicaciones y aprendiendo nuevas tecnologías; y por otro, el hacking ético y la ciberseguridad, un campo que me apasiona por su enfoque analítico, los retos constantes y la necesidad de entender a fondo cómo funcionan los sistemas. Me motiva aprender cosas nuevas, crear desde cero y seguir mejorando cada día en este campo que no para de evolucionar. Además de la informática, me encantan los videojuegos, las series y leer manga, pasatiempos que siempre han estado conmigo.",
+    "foto": "assets/foto-perfil.png",
+    "tecnologias": [
+      {
+        "nombre": "HTML",
+        "logo": "assets/html5.svg",
+        "nivel": "Intermedio"
       },
-      "conocimientos": [
-        {
-          "nombre": "html",
-          "nivel": "experto"
-        },
-        {
-          "nombre": "css",
-          "nivel": "intermedio"
-        }
-      ],
-      "estudios": [
-        {
-          "nombre": "estudio uno",
-          "nivel": "básico"
-        },
-        {
-          "nombre": "estudio dos",
-          "nivel": "intermedio"
-        },
-        {
-          "nombre": "estudio tres",
-          "nivel": "avanzado"
-        }
-      ]
-    }
-  ]
-  
+      {
+        "nombre": "CSS",
+        "logo": "assets/css.svg",
+        "nivel": "Intermedio"
+      },
+      {
+        "nombre": "PHP",
+        "logo": "assets/php.svg",
+        "nivel": "Intermedio"
+      },
+      {
+        "nombre": "GitHub",
+        "logo": "assets/github.svg",
+        "nivel": "Basico"
+      },
+      {
+        "nombre": "Git",
+        "logo": "assets/git.svg",
+        "nivel": "Intermedio"
+      },
+      {
+        "nombre": "JavaScript",
+        "logo": "assets/javascript.svg",
+        "nivel": "Basico"
+      },
+      {
+        "nombre": "Python",
+        "logo": "assets/python.svg",
+        "nivel": "Basico"
+      },
+      {
+        "nombre": "MySQL",
+        "logo": "assets/mysql.svg", 
+        "nivel": "Intermedio"
+      }
+    ]
+  }
+]
