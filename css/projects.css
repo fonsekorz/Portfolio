@@ -39,7 +39,12 @@ main {
   position: relative;
   font-family: "Bebas Neue", sans-serif;
   font-size: 1.6rem;
-  color: #ffb700;
+  font-style: italic;
+  background: linear-gradient(90deg, #f5d742, #ffb700);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #f5d742;;
   margin: 10px 0 0;
   text-align: center;
   letter-spacing: 1px;
@@ -84,8 +89,7 @@ main {
   transition: background 0.2s ease, transform 0.2s ease;
 }
 .boton:hover {
-  background-color: #2a2a2a;
-  transform: none;
+  background-color: #5c5c5c;
 }
 .boton img {
   width: 16px;
