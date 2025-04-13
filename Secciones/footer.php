@@ -10,11 +10,11 @@
             <div class="footer-social">
                 <a href="https://github.com/fonsekorz" target="_blank">
                     <span>GitHub</span>
-                    <img src="./assets/github.svg" alt="GitHub">
+                    <img src="./assets/github.svg" alt="" role="presentation">
                 </a>
                 <a href="https://www.linkedin.com/in/pablofonseca-soporte-informatico/" target="_blank">
                     <span>LinkedIn</span>
-                    <img src="./assets/linkedin.svg" alt="LinkedIn">
+                    <img src="./assets/linkedin.svg" alt="" role="presentation">
                 </a>
             </div>
         </div>

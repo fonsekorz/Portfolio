@@ -178,6 +178,15 @@
   color: #00ff80;
   border: 1px solid #00ff80;
 }
+.nivel.basico,
+.nivel.intermedio,
+.nivel.experto {
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+}
+
 @media (min-width: 600px) {
   .grid-tecnologias {
     grid-template-columns: repeat(2, 1fr);

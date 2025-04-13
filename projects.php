@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="css/about-me.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+        onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    </noscript>
+    <meta name="description"
+        content="Portfolio personal de Pablo Fonseca, técnico IT enfocado en desarrollo web, ciberseguridad y hacking ético. Conoce mis proyectos y tecnologías.">
     <title>Portfolio | Pablo Fonseca</title>
 </head>
 
