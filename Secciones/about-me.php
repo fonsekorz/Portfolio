@@ -6,7 +6,9 @@ $dato = json_decode(file_get_contents($jsonFile), true)[0]; // Objeto único
     <div id="main-container">
         <div id="explicacion">
             <div id="exp-texto">
-                <h1>Sobre mí</h1>
+                <div data-aos="zoom-in">
+                    <h1>Sobre mí</h1>
+                </div>
                 <p><?= $dato['descripcion'] ?></p>
             </div>
             <div id="exp-imagen">
@@ -15,7 +17,10 @@ $dato = json_decode(file_get_contents($jsonFile), true)[0]; // Objeto único
         </div>
         <div id="tecnologias">
             <div id="tecnologias-titulo">
-                <h1>Tecnologías</h1>
+                <div data-aos="zoom-in">
+                    <h1>Tecnologías</h1>
+                </div>
+
             </div>
             <div class="grid-tecnologias">
                 <?php foreach ($dato['tecnologias'] as $tecnologia): ?>
