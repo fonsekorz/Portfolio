@@ -33,3 +33,8 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

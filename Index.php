@@ -14,10 +14,12 @@
 </head>
 
 <body>
-    <?php include_once('./secciones/header.php'); ?>
-    <?php include_once('./secciones/about-me.php'); ?>
-    <?php include_once('./secciones/footer.php'); ?>
-    <script src="./assets/menu.js"></script>
+    <div class="wrapper">
+        <?php include_once('./secciones/header.php'); ?>
+        <?php include_once('./secciones/about-me.php'); ?>
+        <?php include_once('./secciones/footer.php'); ?>
+        <script src="./assets/menu.js"></script>
+    </div>
 </body>
 
 </html>

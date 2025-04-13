@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Poke Cartas",
-    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
     "imagen": "assets/pokecartas-mini.png",
     "botones": [
       {
@@ -18,7 +18,7 @@
   },
   {
     "nombre": "Poke Cartas 2",
-    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
     "imagen": "assets/pokecartas-mini.png",
     "botones": [
       {
@@ -35,7 +35,7 @@
   },
   {
     "nombre": "Poke Cartas 3",
-    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
     "imagen": "assets/pokecartas-mini.png",
     "botones": [
       {
@@ -52,7 +52,7 @@
   },
   {
     "nombre": "Poke Cartas 4",
-    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
     "imagen": "assets/pokecartas-mini.png",
     "botones": [
       {
@@ -69,7 +69,7 @@
   },
   {
     "nombre": "Poke Cartas 5",
-    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
     "imagen": "assets/pokecartas-mini.png",
     "botones": [
       {
@@ -86,7 +86,7 @@
   },
   {
     "nombre": "Poke Cartas 6",
-    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
     "imagen": "assets/pokecartas-mini.png",
     "botones": [
       {
@@ -103,7 +103,7 @@
   },
   {
     "nombre": "Poke Cartas 7",
-    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
     "imagen": "assets/pokecartas-mini.png",
     "botones": [
       {
@@ -120,7 +120,7 @@
   },
   {
     "nombre": "Poke Cartas 8",
-    "descripcion": "Aplicación que genera 5 cartas de Pokémon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokémon.",
+    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
     "imagen": "assets/pokecartas-mini.png",
     "botones": [
       {
