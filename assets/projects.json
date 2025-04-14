@@ -17,120 +17,35 @@
     ]
   },
   {
-    "nombre": "Poke Cartas 2",
-    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
-    "imagen": "assets/pokecartas-mini.png",
+    "nombre": "Pelis Cartas",
+    "descripcion": "Aplicación que muestra peliculas con un formulario para filtrar por género. El formulario tambien permite añadir y eliminar peliculas con director, año y genero.",
+    "imagen": "assets/pelicartas-mini.png",
     "botones": [
       {
         "boton": "Demo",
-        "url": "./pokecartas/index.php",
+        "url": "./pelicartas/index.php",
         "icono": "assets/demo.svg"
       },
       {
         "boton": "GitHub",
-        "url": "https://github.com/fonsekorz/UF1846_pokecartas.git",
+        "url": "https://github.com/fonsekorz/8_json/3_netflixv2",
         "icono": "assets/github.svg"
       }
     ]
   },
   {
-    "nombre": "Poke Cartas 3",
-    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
-    "imagen": "assets/pokecartas-mini.png",
+    "nombre": "Formulario Lista de la Compra",
+    "descripcion": "Aplicación que muestra un formulario para añadir o eliminar productos y su precio.",
+    "imagen": "assets/listacompra-mini.png",
     "botones": [
       {
         "boton": "Demo",
-        "url": "./pokecartas/index.php",
+        "url": "./listacompra/index.php",
         "icono": "assets/demo.svg"
       },
       {
         "boton": "GitHub",
-        "url": "https://github.com/fonsekorz/UF1846_pokecartas.git",
-        "icono": "assets/github.svg"
-      }
-    ]
-  },
-  {
-    "nombre": "Poke Cartas 4",
-    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
-    "imagen": "assets/pokecartas-mini.png",
-    "botones": [
-      {
-        "boton": "Demo",
-        "url": "./pokecartas/index.php",
-        "icono": "assets/demo.svg"
-      },
-      {
-        "boton": "GitHub",
-        "url": "https://github.com/fonsekorz/UF1846_pokecartas.git",
-        "icono": "assets/github.svg"
-      }
-    ]
-  },
-  {
-    "nombre": "Poke Cartas 5",
-    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
-    "imagen": "assets/pokecartas-mini.png",
-    "botones": [
-      {
-        "boton": "Demo",
-        "url": "./pokecartas/index.php",
-        "icono": "assets/demo.svg"
-      },
-      {
-        "boton": "GitHub",
-        "url": "https://github.com/fonsekorz/UF1846_pokecartas.git",
-        "icono": "assets/github.svg"
-      }
-    ]
-  },
-  {
-    "nombre": "Poke Cartas 6",
-    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
-    "imagen": "assets/pokecartas-mini.png",
-    "botones": [
-      {
-        "boton": "Demo",
-        "url": "./pokecartas/index.php",
-        "icono": "assets/demo.svg"
-      },
-      {
-        "boton": "GitHub",
-        "url": "https://github.com/fonsekorz/UF1846_pokecartas.git",
-        "icono": "assets/github.svg"
-      }
-    ]
-  },
-  {
-    "nombre": "Poke Cartas 7",
-    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
-    "imagen": "assets/pokecartas-mini.png",
-    "botones": [
-      {
-        "boton": "Demo",
-        "url": "./pokecartas/index.php",
-        "icono": "assets/demo.svg"
-      },
-      {
-        "boton": "GitHub",
-        "url": "https://github.com/fonsekorz/UF1846_pokecartas.git",
-        "icono": "assets/github.svg"
-      }
-    ]
-  },
-  {
-    "nombre": "Poke Cartas 8",
-    "descripcion": "Aplicación que genera 5 cartas de Pokemon aleatorias. Cuando la carta es shiny, se muestra un borde animado arco iris. Se utiliza la API de Pokemon.",
-    "imagen": "assets/pokecartas-mini.png",
-    "botones": [
-      {
-        "boton": "Demo",
-        "url": "./pokecartas/index.php",
-        "icono": "assets/demo.svg"
-      },
-      {
-        "boton": "GitHub",
-        "url": "https://github.com/fonsekorz/UF1846_pokecartas.git",
+        "url": "https://github.com/fonsekorz/8_json/2_compra_interactiva",
         "icono": "assets/github.svg"
       }
     ]

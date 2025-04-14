@@ -23,7 +23,7 @@ main {
   position: relative;
   z-index: 1;
 }
-#proyectos-titulo h1{
+#proyectos-titulo h1 {
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
@@ -50,7 +50,7 @@ main {
   background-color: #ffb700;
   border-radius: 2px;
 }
-#proyectos-titulo{
+#proyectos-titulo {
   width: 100%;
   text-align: center;
 }
@@ -61,27 +61,35 @@ main {
   width: 100%;
   max-width: 1200px;
   justify-items: center;
-  align-items: center;
+  align-items: stretch;
 }
 .proyecto {
   background-color: #494848;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
   border: 1px solid #c0c0c0;
-  border-radius: 16px;
-  padding: 20px;
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 16px;
   width: 100%;
+  min-height: 450px;
+  height: 100%;
   transition: border 0.3s ease;
 }
 .imagen-proyecto {
+  position: relative;
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 200px;
   border-radius: 12px;
-  border: 1px solid #ffb700;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 1px solid #ffb700;
+  overflow: hidden;
+  object-position: center top;
+  object-fit: cover;
 }
 .proyecto h2 {
   position: relative;
@@ -92,7 +100,7 @@ main {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #f5d742;;
+  color: #f5d742;
   margin: 10px 0 0;
   text-align: center;
   letter-spacing: 1px;
@@ -109,9 +117,9 @@ main {
 }
 .proyecto p {
   font-family: "Poppins", sans-serif;
-  font-size: 1rem; 
+  font-size: 1rem;
   color: #e0e0e0;
-  margin: 0;
+  margin: 0 15px;
   line-height: 1.6;
   text-align: justify;
 }
@@ -122,6 +130,7 @@ main {
   gap: 12px;
   flex-wrap: wrap;
   text-align: center;
+  margin-bottom: 15px;
 }
 .boton {
   display: flex;
@@ -171,6 +180,8 @@ main {
 }
 @media (max-width: 600px) {
   .botones {
+    margin: 0 15px;
+    margin-bottom: 15px;
     flex-direction: column;
     align-items: stretch;
   }

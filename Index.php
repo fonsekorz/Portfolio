@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
     </noscript>
     <meta name="description"
-        content="Portfolio personal de Pablo Fonseca, técnico IT enfocado en desarrollo web, ciberseguridad y hacking ético. Conoce mis proyectos y tecnologías.">
+        content="Portfolio personal de Pablo Fonseca, técnico IT enfocado en desarrollo web y ciberseguridad. Conoce mis proyectos y tecnologías.">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio | Pablo Fonseca</title>
 </head>
