@@ -1,6 +1,6 @@
 <?php
 $jsonFile = '../Portfolio/assets/detalles.json';
-$dato = json_decode(file_get_contents($jsonFile), true)[0]; // Objeto único
+$dato = json_decode(file_get_contents($jsonFile), true)[0];
 ?>
 <main>
     <div id="main-container">

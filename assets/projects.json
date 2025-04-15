@@ -34,7 +34,7 @@
     ]
   },
   {
-    "nombre": "Formulario Lista de la Compra",
+    "nombre": "Lista de la Compra",
     "descripcion": "Aplicación que muestra un formulario para añadir o eliminar productos y su precio.",
     "imagen": "assets/listacompra-mini.png",
     "botones": [

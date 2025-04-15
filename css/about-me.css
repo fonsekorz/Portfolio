@@ -10,6 +10,7 @@
   border-radius: 16px;
   padding: 30px;
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
   gap: 100px;
@@ -58,7 +59,7 @@
 #exp-texto p {
   color: #e0e0e0;
   font-family: "Poppins", sans-serif;
-  text-align: justify;
+  text-align: left;
   font-size: 1.15rem;
   line-height: 1.6;
   margin: 0;
@@ -66,8 +67,8 @@
 #exp-imagen {
   position: relative;
   display: flex;
-  justify-content: center;
-  max-width: 500px;
+  flex: 1;
+  max-width: 600px;
   border-radius: 16px;
   /*border: #ffb700 1px solid; Nose si ponerle el borde o no*/
   overflow: hidden;
@@ -100,8 +101,8 @@
   width: 100%;
 }
 .grid-tecnologias {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
   width: 100%;
   justify-items: center;
@@ -186,23 +187,7 @@
   font-weight: bold;
   display: inline-block;
 }
-
-@media (min-width: 600px) {
-  .grid-tecnologias {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 900px) {
-  .grid-tecnologias {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media (min-width: 1200px) {
-  .grid-tecnologias {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   #explicacion {
     flex-direction: column;
     align-items: center;
@@ -225,17 +210,6 @@
     padding: 0 10px;
   }
   #exp-imagen {
-    max-width: 100%;
-    max-height: none;
-  }
-  #exp-imagen img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-  }
-}
-@media (max-width: 768px) {
-  #exp-imagen {
     width: 90%;
     height: auto !important;
     max-height: none !important;
@@ -248,9 +222,14 @@
     align-items: center;
   }
   #exp-imagen img {
-    width: 100%;
-    height: auto !important;
-    border-radius: 16px;
-    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
   }
+}
+#exp-imagen img {
+  width: 100%;
+  height: auto !important;
+  border-radius: 16px;
+  display: block;
 }

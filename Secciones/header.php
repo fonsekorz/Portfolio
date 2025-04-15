@@ -10,8 +10,8 @@ $dato = $datos[0];
     <button id="menu-toggle" aria-label="Abrir menú de navegación">&#9776;</button>
     <nav id="header-nav">
         <a href="./index.php"><?= $dato['about'] ?></a>
-        <a href="./projects.php"><?= $dato['proyects'] ?></a>
-        <a href="./contact.php"><?= $dato['contact'] ?></a>
+        <a href="./proyecto.php"><?= $dato['proyects'] ?></a>
+        <a href="./contacto.php"><?= $dato['contact'] ?></a>
     </nav>
 </header>
 <?php

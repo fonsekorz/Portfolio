@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/comunes.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about-me.css">
-    <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="preload" as="image" href="assets/foto-perfil.webp">
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
@@ -22,14 +21,16 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div id="wrapper">
         <?php include_once('./secciones/header.php'); ?>
         <?php include_once('./secciones/about-me.php'); ?>
-        <?php include_once('./secciones/footer.php'); ?>
-        <script src="./assets/menu.js" defer></script>
     </div>
+    <?php include_once('./secciones/footer.php'); ?>
+    <script src="./assets/menu.js" defer></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

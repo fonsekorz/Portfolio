@@ -8,6 +8,7 @@ body {
   background: radial-gradient(circle, #1e1e1e 0%, #121212 100%);
   color: #f0f0f0;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 body::before {
   content: "";
@@ -33,7 +34,7 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
-.wrapper {
+#wrapper {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
