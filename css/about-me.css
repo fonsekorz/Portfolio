@@ -101,11 +101,13 @@
   width: 100%;
 }
 .grid-tecnologias {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  display: grid;
-  gap: 20px;
-  width: 100%;
-  justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    justify-items: center;
+    max-width: min(100%, calc((200px * 5) + (20px * 4)));
+    margin: 0 auto;
 }
 .tecnologia {
   background: linear-gradient(

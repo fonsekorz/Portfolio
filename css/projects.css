@@ -55,11 +55,13 @@ main {
   text-align: center;
 }
 .grid-proyectos {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   width: 100%;
   justify-items: center;
+  max-width: min(100%, calc((200px * 5) + (20px * 4)));
+  margin: 0 auto;
 }
 .proyecto {
   justify-content: space-between;
@@ -71,11 +73,9 @@ main {
   flex-direction: column;
   gap: 16px;
   width: 100%;
-  /* min-height: 450px; */
   height: 100%;
   transition: border 0.3s ease;
 }
-
 .imagen-proyecto {
   position: relative;
   display: flex;

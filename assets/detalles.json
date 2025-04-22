@@ -42,6 +42,11 @@
         "nombre": "MySQL",
         "logo": "assets/mysql.svg",
         "nivel": "Intermedio"
+      },
+      {
+        "nombre": "WordPress",
+        "logo": "assets/wordpress.svg",
+        "nivel": "Basico"
       }
     ]
   }
