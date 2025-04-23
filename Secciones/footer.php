@@ -3,9 +3,6 @@
         <div class="footer-content">
             <p>© 2025 Fonseka. Todos los derechos reservados.</p>
             <div class="footer-links">
-                <a href="./index.php">Sobre mí</a>
-                <a href="./projects.php">Proyectos</a>
-                <a href="./contact.php">Contacto</a>
             </div>
             <div class="footer-social">
                 <a href="https://github.com/fonsekorz" target="_blank">
