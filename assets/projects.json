@@ -49,5 +49,22 @@
         "icono": "assets/github.svg"
       }
     ]
+  },
+  {
+    "nombre": "Calculadora Básica",
+    "descripcion": "Aplicación que muestra una calculadora funcional sencilla con operaciones básicas.",
+    "imagen": "assets/calculadora-basica.png",
+    "botones": [
+      {
+        "boton": "Demo",
+        "url": "./calculadora_simple/index.html",
+        "icono": "assets/demo.svg"
+      },
+      {
+        "boton": "GitHub",
+        "url": "https://github.com/fonsekorz/proyectos/tree/main/calculadora%20simple",
+        "icono": "assets/github.svg"
+      }
+    ]
   }
 ]
